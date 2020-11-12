@@ -1,0 +1,19 @@
+﻿<Mi:MiWindow  xmlns:Mi="clr-namespace:EAStyles.Controls.MiStyle;assembly=EAStyles" x:Class="TcpTunnelServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TcpTunnelServer"
+        mc:Ignorable="d"
+        Title="TcpTunnel-后端命令服务台 beta 1.0.1" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Mi:MiButton Content="服务端建立" HorizontalAlignment="Left" Height="36" Margin="172,28,0,0" VerticalAlignment="Top" Width="106" Click="MiButton_Click"/>
+        <Mi:MiButton Content="查看Log" HorizontalAlignment="Left" Height="37" Margin="172,94,0,0" VerticalAlignment="Top" Width="106"/>
+        <Mi:MiComboBox HorizontalAlignment="Left" Height="25" Margin="20,28,0,0" VerticalAlignment="Top" Width="107"/>
+
+    </Grid>
+</Mi:MiWindow>
